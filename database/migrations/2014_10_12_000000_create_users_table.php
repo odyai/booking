@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('phone');
             $table->string('password');
             $table->timestamp('created_at')->useCurrent();
-            $table->timestamps();
+
         });
     }
 
